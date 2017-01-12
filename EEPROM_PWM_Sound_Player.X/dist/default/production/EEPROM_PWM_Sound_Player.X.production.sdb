@@ -1,0 +1,204 @@
+[p LITE_MODE AUTOSTATIC PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 12F1822 ]
+[d frameptr 6 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\pic\eeprom.c
+[v _eecpymem eecpymem `(v  1 e 1 0 ]
+"39
+[v _memcpyee memcpyee `(v  1 e 1 0 ]
+"46 D:\Src\PIC12F1822_EEPROM_PWM_Sound_Player\EEPROM_PWM_Sound_Player.X\main.c
+[v _i2c_enable i2c_enable `(v  1 e 1 0 ]
+"54
+[v _i2c_disable i2c_disable `(v  1 e 1 0 ]
+"60
+[v _i2c_wait i2c_wait `(v  1 e 1 0 ]
+[v i1_i2c_wait i2c_wait `(v  1 e 1 0 ]
+"66
+[v _i2c_start i2c_start `(v  1 e 1 0 ]
+"73
+[v _i2c_repeat_start i2c_repeat_start `(v  1 e 1 0 ]
+"80
+[v _i2c_stop i2c_stop `(v  1 e 1 0 ]
+"87
+[v _i2c_send_byte i2c_send_byte `(v  1 e 1 0 ]
+"94
+[v _i2c_read_byte i2c_read_byte `(uc  1 e 1 0 ]
+[v i1_i2c_read_byte i2c_read_byte `(uc  1 e 1 0 ]
+"112
+[v _play_sound play_sound `(v  1 e 1 0 ]
+"153
+[v _InterTimer InterTimer `II(v  1 e 1 0 ]
+"168
+[v _main main `(v  1 e 1 0 ]
+"414 C:\Program Files (x86)\Microchip\xc8\v1.38\include\pic12f1822.h
+[v _PORTA PORTA `VEuc  1 e 1 @12 ]
+"803
+[v _TMR0 TMR0 `VEuc  1 e 1 @21 ]
+"1013
+[v _TMR2 TMR2 `VEuc  1 e 1 @26 ]
+"1032
+[v _PR2 PR2 `VEuc  1 e 1 @27 ]
+"1051
+[v _T2CON T2CON `VEuc  1 e 1 @28 ]
+"1213
+[v _TRISA TRISA `VEuc  1 e 1 @140 ]
+"1362
+[v _OPTION_REG OPTION_REG `VEuc  1 e 1 @149 ]
+"1609
+[v _OSCCON OSCCON `VEuc  1 e 1 @153 ]
+"2578
+[v _ANSELA ANSELA `VEuc  1 e 1 @396 ]
+"3117
+[v _WPUA WPUA `VEuc  1 e 1 @524 ]
+"3174
+[v _SSP1BUF SSP1BUF `VEuc  1 e 1 @529 ]
+"3211
+[v _SSP1ADD SSP1ADD `VEuc  1 e 1 @530 ]
+"3285
+[v _SSP1STAT SSP1STAT `VEuc  1 e 1 @532 ]
+[s S23 . 1 `uc 1 BF 1 0 :1:0 
+`uc 1 UA 1 0 :1:1 
+`uc 1 R_nW 1 0 :1:2 
+`uc 1 S 1 0 :1:3 
+`uc 1 P 1 0 :1:4 
+`uc 1 D_nA 1 0 :1:5 
+`uc 1 CKE 1 0 :1:6 
+`uc 1 SMP 1 0 :1:7 
+]
+"3307
+[u S32 . 1 `S23 1 . 1 0 ]
+[v _SSP1STATbits SSP1STATbits `VES32  1 e 1 @532 ]
+"3406
+[v _SSP1CON1 SSP1CON1 `VEuc  1 e 1 @533 ]
+"3609
+[v _SSP1CON2 SSP1CON2 `VEuc  1 e 1 @534 ]
+[s S44 . 1 `uc 1 SEN 1 0 :1:0 
+`uc 1 RSEN 1 0 :1:1 
+`uc 1 PEN 1 0 :1:2 
+`uc 1 RCEN 1 0 :1:3 
+`uc 1 ACKEN 1 0 :1:4 
+`uc 1 ACKDT 1 0 :1:5 
+`uc 1 ACKSTAT 1 0 :1:6 
+`uc 1 GCEN 1 0 :1:7 
+]
+"3631
+[u S53 . 1 `S44 1 . 1 0 ]
+[v _SSP1CON2bits SSP1CON2bits `VES53  1 e 1 @534 ]
+"3857
+[v _CCPR1L CCPR1L `VEuc  1 e 1 @657 ]
+"3876
+[v _CCPR1H CCPR1H `VEuc  1 e 1 @658 ]
+"3895
+[v _CCP1CON CCP1CON `VEuc  1 e 1 @659 ]
+"5086
+[v _CCP1SEL CCP1SEL `VEb  1 e 0 @2280 ]
+"5210
+[v _GIE GIE `VEb  1 e 0 @95 ]
+"5406
+[v _RA0 RA0 `VEb  1 e 0 @96 ]
+"5412
+[v _RA3 RA3 `VEb  1 e 0 @99 ]
+"5414
+[v _RA4 RA4 `VEb  1 e 0 @100 ]
+"5606
+[v _TMR0IE TMR0IE `VEb  1 e 0 @93 ]
+"5608
+[v _TMR0IF TMR0IF `VEb  1 e 0 @90 ]
+"5632
+[v _TMR2ON TMR2ON `VEb  1 e 0 @226 ]
+"33 D:\Src\PIC12F1822_EEPROM_PWM_Sound_Player\EEPROM_PWM_Sound_Player.X\main.c
+[v _rom_pos rom_pos `DCC[4]ui  1 e 8 0 ]
+"34
+[v _rom_len rom_len `DCC[4]ui  1 e 8 0 ]
+"37
+[v _snd_pos snd_pos `ui  1 e 2 0 ]
+"40
+[v _snd_max snd_max `ui  1 e 2 0 ]
+"43
+[v _flg_fst flg_fst `ui  1 e 2 0 ]
+"168
+[v _main main `(v  1 e 1 0 ]
+{
+"218
+} 0
+"112
+[v _play_sound play_sound `(v  1 e 1 0 ]
+{
+"128
+[v play_sound@addr_l addr_l `uc  1 a 1 8 ]
+"127
+[v play_sound@addr_h addr_h `uc  1 a 1 7 ]
+"112
+[v play_sound@sel sel `ui  1 p 2 2 ]
+"150
+} 0
+"80
+[v _i2c_stop i2c_stop `(v  1 e 1 0 ]
+{
+"84
+} 0
+"66
+[v _i2c_start i2c_start `(v  1 e 1 0 ]
+{
+"70
+} 0
+"87
+[v _i2c_send_byte i2c_send_byte `(v  1 e 1 0 ]
+{
+[v i2c_send_byte@data data `uc  1 a 1 wreg ]
+[v i2c_send_byte@data data `uc  1 a 1 wreg ]
+"89
+[v i2c_send_byte@data data `uc  1 a 1 5 ]
+"91
+} 0
+"73
+[v _i2c_repeat_start i2c_repeat_start `(v  1 e 1 0 ]
+{
+"77
+} 0
+"94
+[v _i2c_read_byte i2c_read_byte `(uc  1 e 1 0 ]
+{
+"98
+[v i2c_read_byte@data data `uc  1 a 1 1 ]
+"94
+[v i2c_read_byte@ack ack `ui  1 p 2 5 ]
+"108
+} 0
+"60
+[v _i2c_wait i2c_wait `(v  1 e 1 0 ]
+{
+"63
+} 0
+"46
+[v _i2c_enable i2c_enable `(v  1 e 1 0 ]
+{
+"51
+} 0
+"54
+[v _i2c_disable i2c_disable `(v  1 e 1 0 ]
+{
+"57
+} 0
+"153
+[v _InterTimer InterTimer `II(v  1 e 1 0 ]
+{
+"165
+} 0
+"94
+[v i1_i2c_read_byte i2c_read_byte `(uc  1 e 1 0 ]
+{
+[v i1i2c_read_byte@data i2c_read_byte `uc  1 a 1 3 ]
+[v i1i2c_read_byte@ack ack `ui  1 p 2 0 ]
+"108
+} 0
+"60
+[v i1_i2c_wait i2c_wait `(v  1 e 1 0 ]
+{
+"63
+} 0
